@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(to right,rgb(1, 52, 27),black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    width: 80%;
+    border-radius:28px;
+    background-color: white;
+    overflow: hidden;
+}
+.leftsection{
+    background-image: url(/e4.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   flex: 1;
+   text-shadow: 20px 1px 15px rgb(0, 0, 128);
+  
+}
+.leftsection p{
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.leftsection h1{
+    font-size: 3em;
+}
+.rightsection{
+ background-color:white;
+    padding: 40px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    flex: 1;
+    height: 80vh;
+}
+.formsection h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formsection p{
+    margin-bottom: 20px;
+    text-align: justify;
+   font-size: 10px;
+   
+}
+
+.form input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #646363;
+    border-radius: 8px;
+    display: block;
+} 
+#google{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000fd;
+    font-size: large;
+   
+}
+#google a{
+    color: black;
+}
+#facebook{
+    background-color: black;
+    font-size: large;
+}
+#facebook a{
+    color: white;
+}
+.btnic{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    word-spacing: 3px;
+    cursor: pointer;
+}
+
+.erorr{
+    color: rgb(209, 3, 3);
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.a{
+    float: right;
+    margin-top: -29px;
+    font-size: 12px;
+}
